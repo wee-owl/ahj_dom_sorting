@@ -1,0 +1,66 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/abel-regular.woff2') format('woff2');
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Abel', sans-serif;
+  background-color: #b3b3b3;
+  cursor: default;
+}
+
+body {
+  position: relative;
+  min-width: 25rem;
+  margin: 0;
+  padding: 2rem;
+}
+
+.table {
+  margin: 0 auto;
+}
+
+.table__title {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #af0e0e;
+  letter-spacing: 0.2rem;
+}
+
+.header-list__title {
+  min-width: 5rem;
+  border: 0.2rem solid #3b3b3b;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  color: #e6efe7;
+  background-color: #0087a3;
+  background-repeat: no-repeat;
+  background-position: right 0.2rem top 50%;
+  background-size: 1.2rem auto;
+}
+
+.header-list__title-up {
+  background-image: url("../img/arrow-up.png");
+}
+
+.header-list__title-down {
+  background-image: url("../img/arrow-down.png");
+}
+
+.table__body-row {
+  line-height: 2;
+  text-align: center;
+}
+
+.body-row__text {
+  border: 0.15rem solid #3b3b3b;
+  background-color: #e6efe7;
+}
